@@ -21,6 +21,10 @@ gem "jbuilder"
 
 gem 'dotenv-rails'
 
+gem 'rubocop'
+
+gem 'rubocop-rails'
+
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 gem "bootsnap", require: false
