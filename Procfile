@@ -1,1 +1,3 @@
+frontend: rails webpacker:install
+release: bin/rake db:migrate
 web: bundle exec puma -C config/puma.rb
