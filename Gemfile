@@ -13,7 +13,13 @@ gem "puma", "~> 5.0"
 
 gem "importmap-rails"
 
+gem 'sass-rails'
+
 gem "turbo-rails"
+
+gem 'webpacker'
+
+gem 'turbolinks'
 
 gem "stimulus-rails"
 
