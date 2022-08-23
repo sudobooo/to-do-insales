@@ -47,8 +47,8 @@ end
 
 group :test do
   gem 'capybara'
+  gem 'mini_backtrace'
+  gem 'minitest-reporters'
   gem 'selenium-webdriver'
   gem 'webdrivers'
-  gem 'minitest-reporters'
-  gem 'mini_backtrace'
 end
