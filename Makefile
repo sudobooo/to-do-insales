@@ -1,7 +1,7 @@
 start:
 	bundle install
 	bundle update
-	bin/rake db:migrate
+	bundle exec rake db:migrate
 
 migrate-heroku:
 	heroku run rake db:migrate --app to-do-insales
