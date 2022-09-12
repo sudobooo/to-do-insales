@@ -13,4 +13,4 @@ fix-lint:
 	bundle exec rubocop -A
 
 test:
-	NODE_ENV=test bin/rails test
+	bundle exec rake test
