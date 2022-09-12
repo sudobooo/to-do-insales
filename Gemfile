@@ -23,6 +23,8 @@ gem 'webpacker'
 
 gem 'turbolinks'
 
+gem 'bootstrap-sass'
+
 gem 'stimulus-rails'
 
 gem 'jbuilder'
