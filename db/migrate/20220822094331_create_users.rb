@@ -4,7 +4,7 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.integer :insales_user_id
       t.string  :name
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
