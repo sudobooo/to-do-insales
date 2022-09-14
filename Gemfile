@@ -50,6 +50,7 @@ end
 group :test do
   gem 'capybara'
   gem 'mini_backtrace'
+  gem 'minitest'
   gem 'minitest-reporters'
   gem 'rails-controller-testing'
   gem 'selenium-webdriver'
