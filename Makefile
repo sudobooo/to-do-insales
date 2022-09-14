@@ -6,6 +6,9 @@ start:
 migrate-heroku:
 	heroku run rake db:migrate --app to-do-insales
 
+migrate-local:
+	bundle exec rake db:migrate
+
 lint:
 	bundle exec rubocop
 

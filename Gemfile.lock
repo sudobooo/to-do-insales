@@ -292,6 +292,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   mini_backtrace
+  minitest
   minitest-reporters
   pg (~> 1.1)
   puma (~> 5.0)
