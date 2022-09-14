@@ -31,6 +31,8 @@ gem 'jbuilder'
 
 gem 'dotenv-rails'
 
+gem 'bcrypt'
+
 gem 'rubocop'
 
 gem 'rubocop-rails'
