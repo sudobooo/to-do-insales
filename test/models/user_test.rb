@@ -43,7 +43,7 @@ class UserTest < ActiveSupport::TestCase
     assert_not @user.valid?
   end
 
-  test "password validation should accept valid passwords" do
+  test 'password validation should accept valid passwords' do
     valid_passwords = %w[Uc##%E6n i2h@8%Z1 dBbrkH%A1]
     valid_passwords.each do |valid_password|
       @user.password = @user.password_confirmation = valid_password
@@ -51,7 +51,7 @@ class UserTest < ActiveSupport::TestCase
     end
   end
 
-  test "password validation should reject invalid passwords" do
+  test 'password validation should reject invalid passwords' do
     invalid_passwords = %w[12345678 Lo7899056 !#567431#! Ui09467321
                            ar4567!#@ AR78956@#!]
     invalid_passwords.each do |invalid_password|
